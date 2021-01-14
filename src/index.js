@@ -7,7 +7,7 @@ const semverDiff = require('semver-diff');
 
 // constants
 const repositoryLocalWorkspace = process.env.GITHUB_WORKSPACE + '/';
-
+console.log(repositoryLocalWorkspace)
 // helper functions
 function getProjectVersionFromMavenFile(fileContent) {
     var parser = new xml2js.Parser();
